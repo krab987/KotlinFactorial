@@ -20,3 +20,9 @@ fun factRec(a:Int):Int{  //recursive function
 
     return a * factRec(a - 1)
 }
+fun factRec2(a:Int):Int{  //recursive function
+    if(a == 0)
+        return 1;
+
+    return a * factRec(a - 1)
+}
